@@ -1,0 +1,17 @@
+---
+description: Standards for specifications, architecture records, setup instructions, and project documentation
+globs: "**/*.{md,mdc}"
+alwaysApply: false
+---
+
+# Documentation
+
+- Keep documentation consistent with implemented and tested behavior.
+- State scope, assumptions, decisions, alternatives, and verification steps precisely.
+- Use the same domain terms and enum names across requirements, specifications, code, and tests.
+- Link acceptance criteria to API, data model, UI flow, and test coverage where useful.
+- Prefer concise examples and Mermaid diagrams when they clarify behavior.
+- Never include secrets, real credentials, or copied sensitive output.
+- Mark unresolved decisions explicitly instead of presenting guesses as facts.
+- Record significant AI corrections in `docs/ai-validation-log.md` with evidence and impact.
+- Update affected documentation in the same change as behavior.

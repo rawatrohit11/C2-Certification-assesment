@@ -1,0 +1,20 @@
+---
+description: REST API contract, validation, and error response standards
+globs: "{backend,frontend}/**/*.{java,ts,tsx,js,jsx}"
+alwaysApply: false
+---
+
+# API Standards
+
+- Treat `spec/api-contract.md` as the contract; update it before changing API behavior.
+- Use resource-oriented, versioned paths and standard HTTP methods consistently.
+- Accept and return JSON with stable, documented field names and enum values.
+- Use appropriate status codes: 201 for creation, 200 for successful reads or updates, and 204 only with no body.
+- Distinguish malformed input, validation failure, missing resources, conflicts, and unexpected errors.
+- Use RFC 7807-compatible `application/problem+json` responses via Spring `ProblemDetail`.
+- Include a stable machine-readable error code and a safe, meaningful user-facing detail.
+- Validate all client-controlled input on the backend; frontend validation is supplementary.
+- Reject unsupported ticket state transitions as domain conflicts without changing data.
+- Define search and filter semantics, including trimming, case behavior, and empty values, in the contract.
+- Do not expose persistence entities, stack traces, SQL details, or internal class names.
+- Add or update contract and integration tests whenever the API contract changes.

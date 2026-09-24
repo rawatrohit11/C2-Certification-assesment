@@ -1,0 +1,17 @@
+---
+description: Enforces the assessment's spec-driven development workflow and evidence requirements
+alwaysApply: true
+---
+
+# Spec-Driven Workflow
+
+- Use `doc/Assessments.pdf` as the assessment source of truth.
+- Work in this order: requirements, specification, plan/tasks, implementation, testing, review, fix.
+- Do not implement behavior before its relevant specification and acceptance criteria exist.
+- Keep changes minimal, reviewable, and limited to the active phase.
+- Record architectural decisions and update affected specifications when requirements change.
+- Validate AI suggestions against the specifications, executable tests, and framework documentation.
+- Record meaningful rejected or corrected AI suggestions in `docs/ai-validation-log.md`.
+- Preserve submitted prompts through `.cursor/hooks.json` when project hooks are permitted; otherwise append them manually to `.specstory/history/prompts.jsonl` and `docs/prompt-history.md`.
+- Never commit credentials, tokens, passwords, private keys, certificates, or local secret files.
+- Before declaring work complete, run applicable tests, static checks, and the relevant review workflow.
