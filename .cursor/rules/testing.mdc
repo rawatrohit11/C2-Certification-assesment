@@ -1,0 +1,20 @@
+---
+description: Testing standards for backend, frontend, API, persistence, and ticket state transitions
+globs: "**/*{Test,Tests,IT,Spec,test,spec}.{java,ts,tsx,js,jsx}"
+alwaysApply: false
+---
+
+# Testing
+
+- Derive tests from acceptance criteria and `spec/test-strategy.md`.
+- Use unit tests for isolated domain rules and integration tests for HTTP, persistence, and wiring.
+- Cover every valid ticket status transition and representative invalid transitions.
+- Verify invalid transitions are rejected by the backend and leave persisted state unchanged.
+- Cover validation boundaries, not-found behavior, search, status filtering, comments, and updates.
+- Test observable behavior instead of private implementation details.
+- Use deterministic fixtures; do not depend on execution order, external services, or wall-clock timing.
+- Give tests behavior-focused names using arrange/act/assert structure.
+- For each defect, add a regression test that fails before the fix.
+- Keep the H2 test schema compatible with PostgreSQL and use PostgreSQL-backed tests when dialect behavior matters.
+- Frontend tests must verify meaningful loading, empty, success, validation, and server-error states.
+- Report commands run and any checks not run.

@@ -1,0 +1,30 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+application-local.yml
+application-local.yaml
+
+# Java and Maven
+backend/target/
+*.class
+.mvn/timing.properties
+
+# Node and Vite
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+
+# IDE and operating system
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+.cache/
+tmp/
+temp/

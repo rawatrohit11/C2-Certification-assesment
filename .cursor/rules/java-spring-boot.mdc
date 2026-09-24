@@ -1,0 +1,20 @@
+---
+description: Java 21 and Spring Boot implementation standards for the backend
+globs: "backend/**/*.{java,xml,yml,yaml,properties}"
+alwaysApply: false
+---
+
+# Java and Spring Boot
+
+- Target Java 21 and the repository's pinned Spring Boot version.
+- Prefer package-by-feature and constructor injection; do not use field injection.
+- Keep controllers limited to HTTP concerns and services responsible for business rules.
+- Keep persistence entities out of API contracts; map request and response DTOs explicitly.
+- Use Jakarta Bean Validation on request DTOs and `@Valid` at API boundaries.
+- Enforce ticket state transitions in one domain service used by every write path.
+- Use `@Transactional` at service boundaries where a use case changes persisted state.
+- Represent finite values with enums and persist them as strings.
+- Return consistent errors through centralized exception handling and Spring `ProblemDetail`.
+- Avoid Lombok or other dependencies unless their need is documented and approved.
+- Do not log sensitive data or expose exception stack traces in API responses.
+- Prefer clear code over speculative abstractions.

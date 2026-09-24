@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: support-ticket-backend
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/support_tickets}
+    username: ${DB_USERNAME:support_app}
+    password: ${DB_PASSWORD:}
+  jackson:
+    default-property-inclusion: always
+    deserialization:
+      fail-on-unknown-properties: true
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+server:
+  port: ${SERVER_PORT:8080}
+
+app:
+  cors:
+    frontend-origin: ${FRONTEND_ORIGIN:http://localhost:5173}

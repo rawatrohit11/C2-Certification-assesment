@@ -1,0 +1,26 @@
+{"timestamp":"2026-09-22T17:58:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Please read this thoroughly and be strictly consistent throughout:\n/home/rohit-rawat/Desktop/C2-Assessment-Cursor/doc/Assessments.pdf"}
+{"timestamp":"2026-09-22T18:01:00+05:30","conversation_id":null,"generation_id":null,"prompt":"We should start first with all the helper tools we need."}
+{"timestamp":"2026-09-22T18:09:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Start the creation of spec folder."}
+{"timestamp":"2026-09-23T11:44:00+05:30","conversation_id":null,"generation_id":null,"prompt":"/review-spec"}
+{"timestamp":"2026-09-23T11:49:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Now Move forward  to Plan / Tasks"}
+{"timestamp":"2026-09-23T11:54:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Start with Phase 1"}
+{"timestamp":"2026-09-23T11:56:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Complete Phase 0 specifications first (Recommended)"}
+{"timestamp":"2026-09-23T11:57:00+05:30","conversation_id":null,"generation_id":null,"prompt":"stack: React + Vite, PostgreSQL runtime, H2 tests; domain defaults: LOW/MEDIUM/HIGH/URGENT, title 1–200, description 1–5000, optional assignee ≤100, comment 1–2000; query behavior: case-insensitive title/description search, newest-first, pagination; terminal behavior: allow field updates and comments while status remains terminal; concurrency: no version contract, last successful write wins"}
+{"timestamp":"2026-09-23T13:19:00+05:30","conversation_id":null,"generation_id":null,"prompt":"continue from where you left"}
+{"timestamp":"2026-09-23T15:43:00+05:30","conversation_id":null,"generation_id":null,"prompt":"please continue from where you left"}
+{"timestamp":"2026-09-23T15:53:00+05:30","conversation_id":null,"generation_id":null,"prompt":"start the Phase 2"}
+{"timestamp":"2026-09-23T16:14:00+05:30","conversation_id":null,"generation_id":null,"prompt":"/review-code"}
+{"timestamp":"2026-09-23T16:17:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Start with the Phase 3"}
+{"timestamp":"2026-09-23T16:27:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Start Phase 4"}
+{"timestamp":"2026-09-23T16:44:00+05:30","conversation_id":null,"generation_id":null,"prompt":"start with Phase 5"}
+{"timestamp":"2026-09-23T17:57:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Start with the Phase 6"}
+{"timestamp":"2026-09-23T18:04:00+05:30","conversation_id":null,"generation_id":null,"prompt":"/review-code"}
+{"timestamp":"2026-09-23T18:07:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Start with Phase 7"}
+{"timestamp":"2026-09-24T10:07:00+05:30","conversation_id":null,"generation_id":null,"prompt":"close the T-024"}
+{"timestamp":"2026-09-24T10:17:00+05:30","conversation_id":null,"generation_id":null,"prompt":"run the application if we complete with the task"}
+{"timestamp":"2026-09-24T10:20:00+05:30","conversation_id":null,"generation_id":null,"prompt":"creating ticket is not working"}
+{"timestamp":"2026-09-24T14:20:00+05:30","conversation_id":null,"generation_id":null,"prompt":"/review-code"}
+{"timestamp":"2026-09-24T14:45:00+05:30","conversation_id":null,"generation_id":null,"prompt":"change the UI for this application"}
+{"timestamp":"2026-09-24T14:50:00+05:30","conversation_id":null,"generation_id":null,"prompt":"Minimal Professional UI Redesign\n\nImplement the plan as specified, it is attached for your reference. Do NOT edit the plan file itself.\n\nTo-do's from the plan have already been created. Do not create them again. Mark them as in_progress as you work, starting with the first one. Don't stop until you have completed all the to-dos."}
+{"timestamp":"2026-09-24T15:09:00+05:30","conversation_id":null,"generation_id":null,"prompt":"now initialize the git init and make the first commit"}
+{"timestamp":"2026-09-24T15:50:00+05:30","conversation_id":null,"generation_id":null,"prompt":"want to push this code at this other origin in the repo\nhttps://github.com/rawatrohit11/C2-Certification-assesment.git  here"}
