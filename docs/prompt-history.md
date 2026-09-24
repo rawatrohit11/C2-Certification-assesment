@@ -107,6 +107,11 @@ Exact prompt text is retained in `.specstory/history/prompts.jsonl`. This docume
 
 > now initialize the git init and make the first commit
 
+## 2026-09-24 15:50 UTC+05:30
+
+> want to push this code at this other origin in the repo
+> https://github.com/rawatrohit11/C2-Certification-assesment.git  here
+
 ## Capture status
 
 Automatic `beforeSubmitPrompt` capture is not enabled because the current Cursor permissions policy blocked creation of `.cursor/hooks.json` and `.cursor/hooks/record-prompt.py`. Until that policy is explicitly changed, new prompts must be appended to both files manually.
